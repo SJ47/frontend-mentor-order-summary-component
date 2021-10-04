@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [GitHub Repo](https://github.com/SJ47/frontend-mentor-order-summary-component)
+-   Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/order-summary-component-using-react-js-html-and-css-zM6xEpIXs)
 -   Live Site URL: [Order Summary Component](https://order-summary-component.scottjohnston.dev)
 
 ## My process
