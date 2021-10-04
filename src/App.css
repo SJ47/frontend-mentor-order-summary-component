@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --ff-primary: "Red Hat Display", sans-serif;
+    --box-shadow-light: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    --primary-color: "white";
+    --secondary-color: rgb(252, 249, 249);
+    --tertiary-color: hsl(245, 75%, 52%);
+    --quaternary-color: "black";
+    --radius-corner: 15px;
+}
+
+body {
+    background-image: url("./assets/images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 375px;
+    margin: 0 auto;
+    font-family: var(--ff-primary);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    border-top-left-radius: var(--radius-corner);
+    border-top-right-radius: var(--radius-corner);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    border-radius: var(--radius-corner);
+    text-align: center;
+    box-shadow: var(--box-shadow-light);
+    background: var(--primary-color);
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+.summary-text {
+    margin: 1em 3.8em;
+    line-height: 1.6;
+    opacity: 0.5;
+    margin-bottom: 0;
+}
+
+.annual-plan-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    background: var(--secondary-color);
+    border-radius: var(--radius-corner);
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+.annual-plan-price-container > p {
+    margin: 0;
+    font-weight: 700;
+}
+
+.annual-plan-price-container > p:last-of-type {
+    opacity: 0.5;
+}
+
+button {
+    width: 85%;
+    padding: 0.9em 0;
+    margin-top: 1.5em;
+    background: var(--tertiary-color);
+    border-radius: var(--radius-corner);
+    color: white;
+    font-weight: 700;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    box-shadow: var(--box-shadow-light);
+}
+
+button:hover {
+    transform: scale(0.98);
+    transition: 0.2s ease-in-out;
+}
+
+.cancel-button {
+    display: inline-block;
+    background: var(--quaternary-color);
+    color: var(--primary-color);
+    margin-bottom: 1em;
+    opacity: 0.5;
+    margin-top: 1em;
+    cursor: pointer;
+    font-weight: 900;
+    padding-bottom: 1em;
+}
+
+.cancel-button:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-out;
+}
+
+a {
+    font-weight: 700;
+}
+
+@media (min-width: 376px) {
+    body {
+        background-image: url("./assets/images/pattern-background-desktop.svg");
+    }
+}
