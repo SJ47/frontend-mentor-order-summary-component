@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [GitHub Repo](https://github.com/SJ47/frontend-mentor-order-summary-component)
--   Live Site URL: [Order Summary Component](order-summary-component.scottjohnston.dev)
+-   Live Site URL: [Order Summary Component](https://order-summary-component.scottjohnston.dev)
 
 ## My process
 
